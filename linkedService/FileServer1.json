@@ -1,0 +1,17 @@
+{
+	"name": "FileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "E:\\gate application2020\\LTI OFFER\\assets and guidelines\\projectgladiator\\CASE_STUDY\\DATA",
+			"userId": "Saurabh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMGY3MDIxZi02Y2EyLTRiNzgtOTNlMS05NGI5ZjdhODYxZmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
